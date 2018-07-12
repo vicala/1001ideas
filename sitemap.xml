@@ -8,5 +8,8 @@
     <image:image>
       <image:loc>http://www.promocionaportes.pe/images/bajoo-aporte.svg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://www.promocionaportes.pe/images/fiestas.svg</image:loc>
+    </image:image>
   </url>
 </urlset>

@@ -11,7 +11,7 @@ require_once('form_process.php');
 $form = array(
 	'subject' => 'Envío de Formulario Inicio',
 	'heading' => 'Envío de nuevo formulario',
-	'success_redirect' => '',
+	'success_redirect' => 'index.html',
 	'resources' => array(
 		'checkbox_checked' => 'Marcada',
 		'checkbox_unchecked' => 'No marcada',
@@ -34,10 +34,10 @@ $form = array(
 		'custom_U395' => array(
 			'order' => 1,
 			'type' => 'string',
-			'label' => 'Nombre',
+			'label' => 'Nombres y Apellidos',
 			'required' => true,
 			'errors' => array(
-				'required' => 'El campo \'Nombre\' es obligatorio.'
+				'required' => 'El campo \'Nombres y Apellidos\' es obligatorio.'
 			)
 		),
 		'Email' => array(
@@ -80,10 +80,10 @@ $form = array(
 		'custom_U488' => array(
 			'order' => 6,
 			'type' => 'string',
-			'label' => 'Provincia',
+			'label' => 'N° de Cuenta',
 			'required' => true,
 			'errors' => array(
-				'required' => 'El campo \'Provincia\' es obligatorio.'
+				'required' => 'El campo \'N° de Cuenta\' es obligatorio.'
 			)
 		)
 	)
